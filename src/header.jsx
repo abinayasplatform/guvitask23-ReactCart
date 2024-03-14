@@ -1,7 +1,7 @@
 import React from "react"
-// Header component responsible for rendering the header section of the webpage
+
 function Header() {
-    // Returns JSX markup representing the header section
+    
     return (
         <header className="bg-dark py-5 ">
             <div className="container px-4 px-lg-5 my-5">
@@ -13,4 +13,4 @@ function Header() {
         </header>
     )
 }
-export default Header;// Export Header component as default
+export default Header;

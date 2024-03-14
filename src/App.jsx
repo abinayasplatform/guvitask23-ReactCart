@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import '../src/App.css';
 import Navbar from "../src/navbar"
 import Header from "../src/header"
 import ProductCard from "../src/productCart"
@@ -16,66 +15,98 @@ function App() {
     
     {
       id: 1,
-      name: "Fancy Product",
-      rating: null,
-      price: ["$40.00 - $80.00"],
+      name: "Cosmetics",
+      rating: '⭐⭐⭐',
+      price: ["₹1000 - ₹3500"],
       sale: null,
       buttonvalue: "Add to Cart"
     },
     {
       id: 2,
-      name: "Special Item",
+      name: "Shoes",
       rating: "⭐⭐⭐⭐⭐",
-      price: ["$20.00", " $18.00"],
+      price: ["₹800 - ₹1300"],
       sale: 'sale',
       buttonvalue: "Add to Cart"
     },
     {
       id: 3,
-      name: "Sale Item",
-      rating: null,
-      price: ["$50.00", " $25.00"],
+      name: "Kurtis",
+      rating: '⭐⭐⭐',
+      price: ["₹600 - ₹1200"],
       sale: 'sale',
       buttonvalue: "Add to Cart"
     },
     {
       id: 4,
-      name: "Popular Item",
-      rating: "⭐⭐⭐⭐⭐",
-      price: ["$40.00"],
+      name: "Jeans",
+      rating: "⭐⭐⭐⭐",
+      price: ["₹700 - ₹1800"],
       sale: null,
       buttonvalue: "Add to Cart"
     },
     {
       id: 5,
-      name: "Sale Item",
-      rating: null,
-      price: ["$50.00", " $25.00"],
+      name: "Casual Shirts",
+      rating: '⭐⭐⭐',
+      price: ["₹500 - ₹900"],
       sale: 'sale',
       buttonvalue: "Add to Cart"
     },
     {
       id: 6,
-      name: "Fancy Product",
-      rating: null,
-      price: ["$120.00 - $280.00"],
+      name: "Formal Shirts",
+      rating: '⭐⭐',
+      price: ["₹800 - ₹1500"],
       sale: null,
       buttonvalue: "Add to Cart"
     },
     {
       id: 7,
-      name: "Special Item",
-      rating: "⭐⭐⭐⭐⭐",
-      price: ["$20.00", " $18.00"],
-      sale: 'sale',
+      name: "Frocks",
+      rating: "⭐⭐⭐⭐",
+      price: ["₹1000 - ₹3500"],
+      sale: null,
       buttonvalue: "Add to Cart"
     },
     {
       id: 8,
-      name: "Popular Item",
-      rating: "⭐⭐⭐⭐⭐",
-      price: ["$40.00"],
+      name: "Party Wear",
+      rating: "⭐⭐⭐",
+      price: ["₹700 - ₹2500"],
       sale: null,
+      buttonvalue: "Add to Cart"
+    },
+    {
+      id: 9,
+      name: "Traditional Wear",
+      rating: "⭐⭐⭐⭐",
+      price: ["₹1500 - ₹2500"],
+      sale: null,
+      buttonvalue: "Add to Cart"
+    },
+    {
+      id: 10,
+      name: "Shorts for Men",
+      rating: "⭐⭐⭐⭐⭐",
+      price: ["₹900 - ₹1500"],
+      sale: 'sale',
+      buttonvalue: "Add to Cart"
+    },
+    {
+      id: 11,
+      name: "House Appliance",
+      rating: "⭐⭐⭐⭐",
+      price: ["₹15000 - ₹50000"],
+      sale: 'sale',
+      buttonvalue: "Add to Cart"
+    },
+    {
+      id: 12,
+      name: "Mobile Phones",
+      rating: "⭐⭐⭐",
+      price: ["₹20000 - ₹125000"],
+      sale: 'sale',
       buttonvalue: "Add to Cart"
     },
   ];
